@@ -95,7 +95,7 @@ def start_game(playlist_url):
     fail_count = 0
     score_count = 0
 
-    while len(current_deck) < 2:
+    while len(current_deck) < 10:
         print(
             f"\n{COLORS.INFO}You've taken a new tile. The song should start playing...{COLORS.ENDC}"
         )
