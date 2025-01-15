@@ -32,7 +32,7 @@ class Guess:
                 "name": self.guess_name,
                 "artist": self.guess_artist,
             },
-            "results": self.results
+            "results": [str(i) for i in self.results]
         }
 
 
